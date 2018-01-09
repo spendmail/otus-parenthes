@@ -12,7 +12,6 @@ use Parentheses\Exception;
 
 class Model
 {
-
     const VALID_CHARACTERS = "() \n\t\r";
 
     protected $string = '';
