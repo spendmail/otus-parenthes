@@ -12,5 +12,5 @@ namespace Parentheses\Exception;
 class EmptyStringException extends \Exception
 {
 
-    protected $message = 'The string is empty';
+    protected $message = 'Checking string is empty.';
 }

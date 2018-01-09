@@ -11,5 +11,5 @@ namespace Parentheses\Exception;
 
 class BadSymbolException extends \Exception
 {
-    protected $message = 'Symbol is not allowed';
+    protected $message = 'Checking string must contain only symbols: "() \n\t\r';
 }
