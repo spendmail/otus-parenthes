@@ -1,0 +1,23 @@
+{
+    "name": "spendmail/parenthes",
+    "description": "Service, that providing a library, for checking is given parentheses sequence correct or not",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "spendlively",
+            "email": "spendively@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Parentheses\\": "src/",
+            "ParenthesesTest\\": "tests/"
+        }
+    }
+}
